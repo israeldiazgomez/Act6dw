@@ -3,8 +3,8 @@ const Sequelize = require('sequelize');
 
 const BD_NAME = 'db_osito';
 
-const BD_USER = 'tigre';
-const BD_PASS = 'QWER..1234-3..aaa3i';
+const BD_USER = 'grupo4';
+const BD_PASS = 'Grupo4.123';
 
 export const database = new Sequelize(
 
