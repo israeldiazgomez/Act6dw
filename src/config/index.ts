@@ -29,7 +29,8 @@ export class App {
         this.routePrv.clienteRoutes.routes(this.app);
         this.routePrv.productoRoutes.routes(this.app);
         this.routePrv.distribuidoRoutes.routes(this.app);
-        this.routePrv.proveedoreRoutes.routes(this.app)
+        this.routePrv.proveedoreRoutes.routes(this.app);
+        this.routePrv.compraRoutes.routes(this.app)
     }
 
     async listen(){
